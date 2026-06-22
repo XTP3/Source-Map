@@ -2,7 +2,7 @@
 
 name: source-map
 description: Requires the agent to use Source Maps as its first and primary method for circumnavigating a codebase before using native tools, shell search commands, IDE search, semantic search, or broad filesystem inspection. First checks whether the user has already referenced or specified one or more Source Maps INDEX.md locations; if so, opens those indexes directly and immediately begins consulting their relevant source maps without performing registry, Git-root, filesystem, or INDEX.md discovery. Otherwise, locates the Source Maps directory at the root of the established Git repository containing the target files or, when no Git repository exists, at the root of the specific project, component, or codebase being worked on. Reads the relevant map files, navigates directly to their listed paths, and maintains the maps when codebase structure changes.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Source Map
 
