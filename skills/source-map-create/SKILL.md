@@ -2,7 +2,7 @@
 
 name: source-map-create
 description: Creates, expands, or repairs Source Maps for a defined codebase scope. Resolves the Git repository root containing the mapped files and places the Source Maps directory there; if no Git repository exists, uses the root directory of the specific project, component, or codebase being mapped. Before using native code-search tools or broad searching commands, consults any existing Source Maps INDEX.md and relevant map files. Iterates over all relevant source code, creates or updates feature map files, and synchronizes INDEX.md.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Source Map Create
 
